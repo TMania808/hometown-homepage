@@ -1,0 +1,128 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face {
+    font-family: "MaunaLoa";
+    src: url("MaunaLoa.ttf");
+}
+
+
+body {
+    margin: 0;
+    font-family: "MaunaLoa", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+}
+
+#hero {
+    object-fit: contain;
+    height: 500px;
+    background-image: url("images/kailua.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+
+#title-hero {
+    padding: 15px;
+    background: rgb(214, 231, 222, 0.7);
+    border-radius: 20px;
+}
+
+#subtitle {
+    padding: 10px;
+    width: 70%;
+    background: rgb(214, 231, 222, 0.7);
+    border-radius: 20px;
+}
+
+p {
+    font-weight : bold;
+}
+
+h5 {
+    font-weight: lighter;
+}
+
+#activities {
+    margin: 0;
+    background: rgb(214, 231, 222);
+}
+
+#activities-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title-activities {
+    margin: 0;
+    padding: 40px 0 50px 0;
+}
+
+#activities-lanikai {
+    width: 200px;
+}
+
+#img-activities-lanikai {
+    border-radius: 50%;
+    width: 200px;
+    height: 130px;
+}
+
+#activities-breakfast {
+    margin-top: 30px;
+    width: 200px;
+}
+
+#img-activities-breakfast {
+    border-radius: 50%;
+    width: 200px;
+    height: 130px;
+}
+
+#activities-maunawili {
+    margin-top: 30px;
+    width: 200px;
+}
+
+#img-activities-maunawili {
+    border-radius: 50%;
+    width: 200px;    
+    height: 130px;
+}
+
+#guide {
+    border-radius: 20px;
+    margin: 100px auto;
+    background: #ffe1a8;
+    width: 400px;
+    height: 300px;
+
+}
+
+#guide-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+
+#profilePic {
+    border-radius: 10px;
+    height: 250px;
+}
+
+#guide-text {
+    text-align: center;
+    width: 150px;
+}
+
